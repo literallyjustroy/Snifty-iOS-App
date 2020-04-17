@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F87E3052449518E0081BA9F /* funny-noise-lol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "funny-noise-lol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87E3052449518E0081BA9F /* Snifty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snifty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F87E3082449518E0081BA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F87E30A2449518E0081BA9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F87E30C2449518E0081BA9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		3F87E3062449518E0081BA9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F87E3052449518E0081BA9F /* funny-noise-lol.app */,
+				3F87E3052449518E0081BA9F /* Snifty.app */,
 				3F87E31B244951910081BA9F /* funny-noise-lolTests.xctest */,
 				3F87E326244951910081BA9F /* funny-noise-lolUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "funny-noise-lol";
 			productName = "funny-noise-lol";
-			productReference = 3F87E3052449518E0081BA9F /* funny-noise-lol.app */;
+			productReference = 3F87E3052449518E0081BA9F /* Snifty.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3F87E31A244951910081BA9F /* funny-noise-lolTests */ = {
@@ -435,13 +435,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7H4F954N8;
 				INFOPLIST_FILE = "funny-noise-lol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "blue.visual.funny-noise-lol";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snifty;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,13 +453,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7H4F954N8;
 				INFOPLIST_FILE = "funny-noise-lol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "blue.visual.funny-noise-lol";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snifty;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
